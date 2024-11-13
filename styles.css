@@ -1,4 +1,65 @@
-.logo{
+body {
+    display: flex;
+    flex-direction: column
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-wrapper {
+    display: flex
+}
+
+.footer{
+    margin-top: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h2.content-title {
+    text-align: center;
+}
+
+.header-links a {
+    text-decoration: none;
+}
+
+.header-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom-wrapper {
+    display: flex
+}
+
+.image-wrapper {
+    display: flex;
+    text-align: center;
+}
+
+.logo {
     height: 100px;
     width: 100px
+}
+
+.testi-author {
+    text-align: end;
+}
+
+.thumbnail {
+    height: 100px;
+    width: 150px
+}
+
+.title-image {
+    height: auto;
+    width: 400px
 }
