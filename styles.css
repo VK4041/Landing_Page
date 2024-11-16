@@ -1,6 +1,26 @@
 body {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.bold-text {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.btn,
+.cta-wrapper {
+    background-color: #3882F6;
+}
+
+.btn {
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    width: 100px;
+    height: 36px
 }
 
 .content {
@@ -8,18 +28,50 @@ body {
     flex-direction: column;
 }
 
-.cta-wrapper {
-    display: flex
+.content-title {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
-.footer{
+.cta-main {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0
+}
+
+.cta-text {
+    color: rgb(234, 202, 202);
+    font-size: 20px;
+}
+
+.cta-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px;
+    padding: 24px 120px;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
     margin-top: auto;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 48px;
+    color: white
 }
-h2.content-title {
-    text-align: center;
+
+.header {
+    padding: 5px 150px 100px
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
 }
 
 .header-links a {
@@ -29,37 +81,103 @@ h2.content-title {
 .header-links ul {
     display: flex;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.header-logo .logo-text {
+    font-size: 24px;
+    color: #F9FAF8
 }
 
 .header-top-wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .header-bottom-wrapper {
-    display: flex
+    display: flex;
+    gap: 20px
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.hero-secondary {
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.hero-secondary,
+.header-links a {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .image-wrapper {
     display: flex;
     text-align: center;
+    padding: 48px 120px;
+    justify-content: center;
 }
 
 .logo {
-    height: 100px;
-    width: 100px
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
-.testi-author {
-    text-align: end;
+.object {
+    flex: 1
 }
 
 .thumbnail {
-    height: 100px;
-    width: 150px
+    height: 150px;
+    width: 200px;
+    border: 2px solid purple;
+    border-radius: 10px;
 }
 
 .title-image {
     height: auto;
-    width: 400px
+    width: 400px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 400px
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+p {
+    margin: 5px 0;
 }
